@@ -313,7 +313,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     user_name = user_info.first_name
     
-     response = " 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃🔥🔥."
+     response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of TRUSTVIP"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /shadow command
